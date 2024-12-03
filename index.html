@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS Files/style.css">
+    <title>Primitive service delivery site</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="Images/logo.png" alt="شعار الموقع">
+            <h1>خدماتي</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#contact3">عنا</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#home">الرئيسية</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="landing">
+        <div class="content2">
+            <h1>مرحبًا بك في موقعنا</h1>
+            <p>نحن نقدم أفضل الخدمات لتلبية احتياجاتك.</p>
+            <button onclick="alert('شكرا لاختيارك موقعنا! ، أتمنى أن تجد ما يلزمك هنا')">تعرف على المزيد</button>
+        </div>
+    </section>
+
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="content">
+                <h1>خدماتي</h1>
+                <p>الخدمات التي نقدمها، انقر على أي خدمة تناسب احتياجاتك</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="Images/portfolio-1.jpg" alt="الخدمة الأولى">
+                    <h3>خدمة الحجز الإلكتروني</h3>
+                    <p>يتيح للمستخدمين حجز مواعيد أو خدمات محددة (مثل مواعيد طبية، استشارات، أو خدمات تنظيف) عبر الإنترنت، مع إمكانية الدفع المسبق وإدارة المواعيد بسهولة.</p>
+                </div>
+                <div class="card">
+                    <img src="Images/portfolio-2.jpg" alt="الخدمة الثانية">
+                    <h3>خدمة تحليل البيانات والتقارير</h3>
+                    <p>يقدم تقارير مفصلة بناءً على إدخال المستخدم (مثل تحليل استهلاك الطاقة، أو تقديم تقارير أداء للمشاريع)، مما يساعد العملاء على اتخاذ قرارات مستنيرة.</p>
+                </div>
+                <div class="card">
+                    <img src="Images/portfolio-3.jpg" alt="الخدمة الثالثة">
+                    <h3>خدمة الدعم الفني المباشر</h3>
+                    <p>يوفر منصة للدردشة المباشرة أو التذاكر، حيث يمكن للمستخدمين طلب المساعدة أو الإبلاغ عن مشاكل، مع ضمان استجابة سريعة وفعّالة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="form-section">
+        <div class="content">
+            <h1>إتصل بنا</h1>
+            <p>إتصل بنا من هنا للإستفسار عن أي مشكلة قد تواجهك</p>
+        </div>    
+        <form action="#" method="POST">
+            <label for="name">الاسم</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">الرسالة</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">إرسال</button>
+        </form>
+    </section>    
+    
+
+    <div id="contact3" class="contact-info3">
+        <div class="content3">
+            <h1>تواصل معنا</h1>
+            <p>تواصل معي للمشاريع الخاصة من خلال هذه الأيقونات</p>
+        </div>   
+        <p>البريد الإلكتروني: <a href="nayifabdelghafour@example.com">nayifabdelghafour@example.com</a></p>
+        <p>الهاتف: <a href="tel:+99999999999">+999999999999</a></p>
+        <div class="social-links">
+            <a href="#" title="فيسبوك">فيسبوك</a>
+            <a href="#" title="تويتر">تويتر</a>
+            <a href="#" title="إنستغرام">إنستغرام</a>
+        </div>
+    </div>
+
+    <footer>
+        <p class="copyright">
+            &copy; 2024 جميع الحقوق محفوظة. تصميم الموقع: <a href="#">م.نايف عبدالغفور</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
